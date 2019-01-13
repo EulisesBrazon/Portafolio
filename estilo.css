@@ -1,6 +1,6 @@
 .header{
-    background:#3498db;
-    color: #3498db;
+    background:#2980b9;
+    color: #2980b9;
     display:flex;
     list-style: none;
     height: 30px;
@@ -42,15 +42,16 @@ h5,
 h6
 {
     font-family: 'Fjalla One', sans-serif;
-    font-weight: 500; /*bold 600 normal 400*/
+    font-weight: 500;
+    margin: 0px;
 }
 
 h1{
     
     font-size: 40px;
-    line-height: 150%; /* separacion entre linea*/
-    letter-spacing: -.2px;/*separacion entre letrass*/
-    margin:0px 0px 0px 0px; /*top right bottom left auto para centrado*/
+    line-height: 150%; 
+    letter-spacing: -.2px;
+    margin:0; 
 }
 h1 strong{
     color: black;
@@ -81,7 +82,7 @@ h1 strong{
 .hero{
     height: 300;
     background-image: url('imagenes/Udo_logo.png');
-    background-color: #2980b9;
+    background-color: #056fff;
     background-size: 200px 200px;  
     background-repeat: no-repeat;
     background-position-x: right;
@@ -98,4 +99,20 @@ h1 strong{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.social-link.github {
+    background-image: url('imagenes/github.svg');
+}
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 50px;
+    background-size: 50px 50px;
+}
+.footer{
+    background: #95a5a6;
+    height: 20px;
+    margin: 0 auto;
+    padding: 0px;
 }
