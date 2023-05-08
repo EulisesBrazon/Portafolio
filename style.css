@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: linear-gradient(to right, #0c1b33, #00cc88);
+}
+nav .logoConjunto{
+    display: flex;
+    align-items: center;
+    
+}
+nav .logo{
+    height: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+nav img{
+    height: 2rem;
+    margin-left: 1rem;
+}
+.navbar-nav li a {
+    color: white;
+  }
+.navbar-brand{
+    color: white;
+}
+/* #navbar a{
+    color: white;
+} */
+#navbar .navbar-nav{
+    margin-left: auto;
+}
+#presentacion .carousel-inner img {
+    max-height: 70vh;
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    size: 2re;
+}
+#carousel .overlay strong{
+    color: #1df8af;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+#sobre-mi{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #0c1b33;
+    color: white;
+}
+#sobre-mi p{
+    text-align: justify;
+}
+#proyecto{
+    background-color: #1a2845;
+    padding-top: 1.5rem;
+    color: white;
+    scroll-padding-bottom: 100px;
+}
+
+#proyecto .row .col .card{
+    background-color: #0c1b33;
+    height: 23rem;
+    width: 22rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1.5rem; 
+}
+#proyecto .row .col .card a{
+    text-decoration: none;
+    color: white;
+}
+#proyecto .row .col .card a :hover{ 
+    opacity: 0.5;
+}
+#proyecto .row .col .card img{
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+}
+#proyecto col{
+    border-width: 10px;
+}
+#certificado{
+    background-color: #1a2845;
+}
+#certificado button{
+    background-color: #068158;
+    border-color: #068158;
+    border-radius: 1.5rem;
+}
+#certificado button:hover{
+    opacity: 0.5;
+}
+#buttonCollapse{
+    padding-bottom: 1.5rem;
+}
+#collapse{
+    background-color: #068158;
+}
+#collapse .col{
+    text-align: center;
+}
+#collapse img{
+    border-radius: 1rem;
+    width: 18rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+#collapse img:hover{
+    opacity: 0.5;
+}
+footer{
+    height: 6rem;
+    background: linear-gradient(to right, #00cc88, #0c1b33 );
+}
+footer h2{
+    color: white;
+}
+footer img{
+    max-width: 4rem;
+}
+footer img:hover{
+    opacity: 0.5;
+}
+footer .container-fluid,
+footer .row{
+    height: 100%;
+}
+footer .name{
+    height: 1.5rem;
+}
