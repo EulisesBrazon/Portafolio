@@ -31,13 +31,13 @@
                 <div class="collapse navbar-collapse " id="navbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#sobre-mi">¿Quien soy?</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#proyecto">Proyectos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#certificado">Certificados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#sobre-mi">¿Quien soy?</a>
                         </li>
                     </ul>
                 </div>
@@ -93,32 +93,6 @@
         </div>
     </div>
     <!-- /fotosPresentacion -->
-    <!-- sobreMi -->
-    <div class="container-fluid text-center sobre-mi" id="sobre-mi" >
-        <div class="row">
-          <div class="col-8 offset-2"> 
-            <h1>¿Quien soy?</h1>
-            <p>
-                Hola, soy un estudiante en la carrera en <strong>Ingeniería en computación</strong>  
-                que a la fecha de hoy (2023) se encuentra en proceso de tesis para optar por el título 
-                académico de Ingeniería en Computación, en la Universidad de Oriente. Es una carrera 
-                interesante ya que en ella he pasado por un proceso de aprendizaje y formación, 
-                en el cual se abarcan conceptos tanto a nivel de software como a nivel de hardware. 
-                He tenido la oportunidad de trabajar con distintas tecnologías como lo son
-                <span class="badge text-bg-success">Django</span> 
-                <span class="badge text-bg-primary">C++</span>
-                <span class="badge text-bg-danger">Java</span>
-                <span class="badge text-bg-info">Sql</span>
-                <span class="badge text-bg-warning">Phyton</span>
-                . A día de hoy me encuentro enfocando en el aprendizaje y dominio de un stack de desarrollo 
-                web que permita desempeñar roles tanto a nivel de front-end como a nivel de back-end. 
-                Dado que las aplicaciones web son soluciones interesantes al abordar problemáticas de 
-                distintos indoles y que brinda accesibilidad a sus usuarios.
-            </p>
-          </div>
-        </div>
-    </div>
-    <!-- /spbreMi -->
     <!-- proyectos -->
     <div class="container-fluid" id="proyecto">
         <h1 style="text-align: center;">Proyectos</h1>
@@ -127,13 +101,17 @@
                 <div class="card">
                     <div>
                         <a href="https://github.com/EulisesBrazon/SIBUDO" target="_blank">
-                            <img src="assets/proyectos/SIBUDO.png" class="card-img-top" alt="SIBUDO">
+                            <img src="assets/proyectos/SIBUDO.jpg" class="card-img-top" alt="SIBUDO">
                             <div class="card-body">
                                 <h2 class="card-text">Sistema SIBUDO</h2>
                                 <p class="card-text">
-                                    Sistema de Información, para la gestión de una biblioteca desarrollado en <span class="badge text-bg-success">Django</span> 
+                                    Sistema de Información, para la gestión de una biblioteca desarrollado 
                                     como parte de la asignatura de desarrollo de software avanzado.
                                 </p>
+                                <p>
+                                    <span class="badge text-bg-success">Django</span> 
+                                </p>
+                                
                           </div>
                         </a>     
                     </div>            
@@ -145,10 +123,15 @@
                         <a href="https://github.com/EulisesBrazon/brawludo" target="_blank">
                             <img src="assets/proyectos/In_Game_2.jpg" class="card-img-top" alt="Brawludo">
                             <div class="card-body">
-                                <h2 class="card-text">Videojuego Brawludo</h2>
+                                
+                                <h2 class="card-text">Brawludo</h2>
+                                <br>
                                 <p class="card-text">
-                                    Desarrollado en <span class="badge text-bg-light">Unity</span> 
+                                    Videojuego desarrollado 
                                     como parte del aprendizaje de computacion gráfica.
+                                </p>
+                                <p>
+                                    <span class="badge text-bg-light">Unity</span>
                                 </p>
                           </div>
                         </a>     
@@ -162,8 +145,10 @@
                             <img src="assets/proyectos/luces_audioritmicas.jpg" class="card-img-top" alt="Luces Audioritmicas" >
                             <div class="card-body">
                                 <h2 class="card-text">Luces Audioritmicas</h2>
-                                <br class="card-text">
-                                    Proyecto de robotica realizado con </br>raspberry pi pico en
+                                <p class="card-text">
+                                    Proyecto de robótica realizado en un raspberry pi pico.
+                                </p>
+                                <p>
                                     <span class="badge text-bg-warning">Micro Phyton</span>
                                 </p>
                             </div>
@@ -178,9 +163,12 @@
                             <img src="assets/proyectos/laberinto.jpg" class="card-img-top" alt="Laberinto">
                             <div class="card-body">
                                 <h2 class="card-text">Laberinto</h2>
+                                <br>
                                 <p class="card-text">
-                                    Mini juego realizado en <span class="badge text-bg-danger">C++</span>
-                                    vizualizado a traves de la linea de consola.
+                                    Mini juego vizualizado a traves de la linea de comandos.
+                                </p>
+                                <p>
+                                    <span class="badge text-bg-danger">C++</span>
                                 </p>
                             </div>
                         </a>     
@@ -195,8 +183,10 @@
                             <div class="card-body">
                                 <h2 class="card-text">Inteligencia artificial</h2>
                                 <p class="card-text">
-                                    Juego desarrollado en <span class="badge text-bg-warning">Phyton</span>
-                                    que genera el comportamiento del zorro.
+                                    Juego del zorro y los cazadores donde se genera el comportamiento del zorro.
+                                </p>
+                                <p>
+                                    <span class="badge text-bg-warning">Phyton</span>
                                 </p>
                             </div>
                         </a>     
@@ -211,7 +201,10 @@
                             <div class="card-body">
                                 <h2 class="card-text">Problema de la Barberia</h2>
                                 <p class="card-text">
-                                    Solución a un problema de concurrencia desarrollado en <span class="badge text-bg-warning">Phyton</span>.
+                                    Solución a un problema de concurrencia y paralelismo.
+                                </p>
+                                <p>
+                                    <span class="badge text-bg-warning">Phyton</span>
                                 </p>
                             </div>
                         </a>     
@@ -226,7 +219,28 @@
                             <div class="card-body">
                                 <h2 class="card-text">Servidor PicoW</h2>
                                 <p class="card-text">
-                                    Mini página web alojada en un raspberry pi pico W para atender peticiones, generadas desde la pagina o desde otro picoW.
+                                    Mini página web alojada en un raspberry pi pico W para atender peticiones, generadas desde la página o desde otro picoW.
+                                </p>
+                                <p>
+                                    <span class="badge text-bg-warning">Micro Phyton</span>
+                                </p>
+                            </div>
+                        </a>     
+                    </div>
+                </div>
+            </div>
+            <div class="col"> 
+                <div class="card">
+                    <div>
+                        <a href="https://github.com/EulisesBrazon/Perceptron_y_Adaline" target="_blank">
+                            <img src="assets/proyectos/Perceptron_Adaline.jpg" class="card-img-top" alt="Servidor con picoW">
+                            <div class="card-body">
+                                <h2 class="card-text">Perceptron y Adaline</h2>
+                                <p class="card-text">
+                                    Busqueda del Hiperplano separador para clasificacion de grupos.
+                                </p>
+                                <p>
+                                    <span class="badge text-bg-warning">Phyton</span>
                                 </p>
                             </div>
                         </a>     
@@ -240,8 +254,13 @@
                             <img src="assets/proyectos/sql.jpg" class="card-img-top" alt="Entidad Relacion">
                             <div class="card-body">
                                 <h2 class="card-text">MySQL</h2>
+                                <br>
                                 <p class="card-text">
                                     Ejercicio de creación de Base de datos.
+                                </p>
+                                <br>
+                                <p>
+                                    <span class="badge text-bg-info">MySql</span>
                                 </p>
                             </div>
                         </a>     
@@ -255,8 +274,12 @@
                             <img src="assets/proyectos/recreacion_uart.jpg" class="card-img-top" alt="Recreacion Uart">
                             <div class="card-body">
                                 <h2 class="card-text">Recreacion Uart</h2>
+                                <br>
                                 <p class="card-text">
                                     Recreación del protocolo de comunicación serial UART.
+                                </p>
+                                <p>
+                                    <span class="badge text-bg-warning">Micro Phyton</span>
                                 </p>
                             </div>
                         </a>     
@@ -402,6 +425,47 @@
         </div>  
     </div>   
     <!-- /certificados -->
+        <!-- sobreMi -->
+        <div class="container-fluid text-center sobre-mi" id="sobre-mi" >
+            <div class="row">
+              <div class="col-8 offset-2"> 
+                <h1>¿Quien soy?</h1>
+                <p>
+                    Hola, soy un estudiante en la carrera en <strong>Ingeniería en computación</strong>  
+                    que a la fecha de hoy (2023) se encuentra en proceso de tesis para optar por el título 
+                    académico de Ingeniería en Computación, en la Universidad de Oriente. Es una carrera 
+                    interesante ya que en ella he pasado por un proceso de aprendizaje y formación, 
+                    en el cual se abarcan conceptos tanto a nivel de software como a nivel de hardware. 
+                    He tenido la oportunidad de trabajar con distintas tecnologías como lo son
+                    <span class="badge text-bg-success">Django</span> 
+                    <span class="badge text-bg-primary">C++</span>
+                    <span class="badge text-bg-danger">Java</span>
+                    <span class="badge text-bg-info">MySql</span>
+                    <span class="badge text-bg-warning">Phyton</span>
+                    . A día de hoy me encuentro enfocando en el aprendizaje y dominio de un stack de desarrollo 
+                    web que permita desempeñar roles tanto a nivel de front-end como a nivel de back-end. 
+                    Dado que las aplicaciones web son soluciones interesantes al abordar problemáticas de 
+                    distintos indoles y que brinda accesibilidad a sus usuarios.
+                </p>
+              </div>
+              <div class="col-8 offset-2"> 
+                <h2>Tecnologias </h2>
+                <p>
+                    <img class="icon" src="assets/iconos/django-plain.svg" alt="Django">
+                    <img class="icon" src="assets/iconos/python-original.svg" alt="Python">
+                    <img class="icon" src="assets/iconos/html5-original.svg" alt="Html">
+                    <img class="icon" src="assets/iconos/css3-original.svg" alt="css">
+                    <img class="icon" src="assets/iconos/bootstrap-original.svg" alt="bootstrap">
+                    <img class="icon" src="assets/iconos/java-original.svg" alt="java">
+                    <img class="icon" src="assets/iconos/cplusplus-original.svg" alt="cplusplus">
+                    <img class="icon" src="assets/iconos/git-original.svg" alt="Git">
+                    <img class="icon" src="assets/iconos/django-plain.svg" alt="Django">
+                    <img class="icon" src="assets/iconos/mysql-original.svg" alt="Mysql">
+                </p>
+              </div>
+            </div>
+        </div>
+        <!-- /spbreMi -->
     <!-- footer -->
     <footer>
         <div class="container-fluid ">
