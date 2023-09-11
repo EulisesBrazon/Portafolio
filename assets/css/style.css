@@ -93,8 +93,16 @@ nav img{
 #proyecto col{
     border-width: 10px;
 }
+#proyecto img{
+    height: 185px;
+    width: 318px;
+}
 #certificado{
     background-color: #1a2845;
+}
+#certificado img{
+    height: 223px;
+    width: 288px;
 }
 #certificado button{
     background-color: #068158;
