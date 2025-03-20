@@ -135,8 +135,9 @@ nav img{
 #collapse img:hover{
     opacity: 0.5;
 }
-.icon{
-    width:5rem;
+.icon {
+    width: 5rem;
+    text-align: center;
 }
 footer{
     height: 6rem;
